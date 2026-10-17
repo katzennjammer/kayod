@@ -1,0 +1,83 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip",
+    "continue": "Continue",
+    "retry": "Try again"
+  },
+  "language": {
+    "title": "Choose your language",
+    "subtitle": "You can change this later in Settings."
+  },
+  "onboarding": {
+    "slide1": {
+      "title": "Find Work Near You",
+      "subtitle": "Jobs for parents, close to home, from verified employers."
+    },
+    "slide2": {
+      "title": "Work That Fits Your Day",
+      "subtitle": "Set when you are free. See jobs that fit school pickup and your schedule."
+    },
+    "slide3": {
+      "title": "Any Job, Any Skill",
+      "subtitle": "Construction, painting, driving, laundry, errands, cleaning, and more."
+    },
+    "slide4": {
+      "title": "Safe and Fair for Both Sides",
+      "subtitle": "Verified employers, two-way ratings, and a clear paid or not paid record."
+    },
+    "slide5": {
+      "title": "Kayod Para Sa Pamilya",
+      "subtitle": "Join your neighbors and start today."
+    },
+    "getStarted": "Let's get started",
+    "slideOf": "Slide {{current}} of {{total}}"
+  },
+  "role": {
+    "title": "How will you use Kayod?",
+    "subtitle": "You can switch any time in Settings.",
+    "workerTitle": "I'm looking for work",
+    "workerBody": "Find jobs near you that fit your schedule.",
+    "employerTitle": "I need work done",
+    "employerBody": "Post a job and find trusted workers nearby.",
+    "guestNote": "You can look around first. We only ask for your phone number when you apply, post, or send a message."
+  },
+  "tabs": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "chat": "Chat",
+    "profile": "Profile",
+    "posts": "My posts"
+  },
+  "home": {
+    "greeting": "Good day!",
+    "workerEmptyTitle": "No jobs to show yet",
+    "workerEmptyBody": "Jobs near you will show up here.",
+    "employerEmptyTitle": "No job posts yet",
+    "employerEmptyBody": "When you post a job, it will show up here."
+  },
+  "states": {
+    "loading": "Loading",
+    "errorTitle": "Something went wrong",
+    "errorBody": "Check your connection and try again.",
+    "comingSoonTitle": "Coming soon",
+    "comingSoonBody": "This part of Kayod is still being built."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "replayIntro": "Replay intro",
+    "role": "I'm using Kayod as",
+    "roleWorker": "Worker",
+    "roleEmployer": "Employer",
+    "switchTo": "Switch to {{role}}"
+  },
+  "mascot": {
+    "placeholder": "Mascot art coming soon"
+  },
+  "a11y": {
+    "settings": "Settings",
+    "notifications": "Notifications"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "common": {
+    "next": "Sunod",
+    "back": "Balik",
+    "skip": "Laktaw",
+    "continue": "Padayon",
+    "retry": "Sulayi pag-usab"
+  },
+  "language": {
+    "title": "Pilia ang imong pinulongan",
+    "subtitle": "Mausab nimo ni unya sa Settings."
+  },
+  "onboarding": {
+    "slide1": {
+      "title": "Pangitag Trabaho Duol Nimo",
+      "subtitle": "Trabaho para sa mga ginikanan, duol sa balay, gikan sa mga beripikadong employer."
+    },
+    "slide2": {
+      "title": "Trabaho nga Mohaum sa Imong Adlaw",
+      "subtitle": "I-set kung kanus-a ka libre. Tan-awa ang mga trabaho nga mohaum sa pagsundo sa eskwelahan ug sa imong iskedyul."
+    },
+    "slide3": {
+      "title": "Bisan Unsang Trabaho, Bisan Unsang Kahanas",
+      "subtitle": "Konstruksyon, pagpintal, pagdrayb, paglaba, pagpamalit, paglimpyo, ug uban pa."
+    },
+    "slide4": {
+      "title": "Luwas ug Patas sa Duha ka Bahin",
+      "subtitle": "Beripikadong employer, rating gikan sa duha ka bahin, ug klaro nga rekord kung bayad na o wala pa."
+    },
+    "slide5": {
+      "title": "Kayod Para Sa Pamilya",
+      "subtitle": "Apil sa imong mga silingan ug sugdi karon."
+    },
+    "getStarted": "Sugdan na nato",
+    "slideOf": "Slide {{current}} sa {{total}}"
+  },
+  "role": {
+    "title": "Unsaon nimo paggamit ang Kayod?",
+    "subtitle": "Mausab nimo ni bisan kanus-a sa Settings.",
+    "workerTitle": "Nangita ko og trabaho",
+    "workerBody": "Pangitag trabaho duol nimo nga mohaum sa imong iskedyul.",
+    "employerTitle": "Naa koy ipabuhat",
+    "employerBody": "Pag-post og trabaho ug pangitag kasaligang mamumuo duol nimo.",
+    "guestNote": "Pwede ka motan-aw-tan-aw usa. Pangayoon ra namo ang imong numero kung mo-apply ka, mo-post, o mopadala og mensahe."
+  },
+  "tabs": {
+    "home": "Home",
+    "jobs": "Trabaho",
+    "chat": "Chat",
+    "profile": "Profile",
+    "posts": "Akong mga post"
+  },
+  "home": {
+    "greeting": "Maayong adlaw!",
+    "workerEmptyTitle": "Wala pay trabaho nga ikapakita",
+    "workerEmptyBody": "Mogawas diri ang mga trabaho duol nimo.",
+    "employerEmptyTitle": "Wala ka pay na-post nga trabaho",
+    "employerEmptyBody": "Mogawas diri ang trabaho nga imong i-post."
+  },
+  "states": {
+    "loading": "Nag-load",
+    "errorTitle": "Naay sayop nga nahitabo",
+    "errorBody": "Susiha ang imong koneksyon ug sulayi pag-usab.",
+    "comingSoonTitle": "Hapit na",
+    "comingSoonBody": "Gihimo pa namo kining bahina sa Kayod."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Pinulongan",
+    "replayIntro": "Balika ang intro",
+    "role": "Gigamit nako ang Kayod isip",
+    "roleWorker": "Mamumuo",
+    "roleEmployer": "Employer",
+    "switchTo": "Mobalhin isip {{role}}"
+  },
+  "mascot": {
+    "placeholder": "Hapit na ang mascot"
+  },
+  "a11y": {
+    "settings": "Settings",
+    "notifications": "Mga pahibalo"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "common": {
+    "next": "Susunod",
+    "back": "Bumalik",
+    "skip": "Laktawan",
+    "continue": "Magpatuloy",
+    "retry": "Subukan ulit"
+  },
+  "language": {
+    "title": "Piliin ang iyong wika",
+    "subtitle": "Mapapalitan mo ito mamaya sa Settings."
+  },
+  "onboarding": {
+    "slide1": {
+      "title": "Maghanap ng Trabaho Malapit sa Iyo",
+      "subtitle": "Trabaho para sa mga magulang, malapit sa bahay, mula sa mga beripikadong employer."
+    },
+    "slide2": {
+      "title": "Trabahong Swak sa Araw Mo",
+      "subtitle": "Itakda kung kailan ka libre. Makita ang mga trabahong swak sa pagsundo sa eskwela at sa iskedyul mo."
+    },
+    "slide3": {
+      "title": "Anumang Trabaho, Anumang Galing",
+      "subtitle": "Konstruksyon, pagpipinta, pagmamaneho, paglalaba, pagpapabili, paglilinis, at iba pa."
+    },
+    "slide4": {
+      "title": "Ligtas at Patas sa Magkabilang Panig",
+      "subtitle": "Beripikadong employer, rating mula sa magkabilang panig, at malinaw na tala kung bayad na o hindi pa."
+    },
+    "slide5": {
+      "title": "Kayod Para Sa Pamilya",
+      "subtitle": "Sumali sa iyong mga kapitbahay at magsimula ngayon."
+    },
+    "getStarted": "Tara, simulan na natin",
+    "slideOf": "Slide {{current}} sa {{total}}"
+  },
+  "role": {
+    "title": "Paano mo gagamitin ang Kayod?",
+    "subtitle": "Mapapalitan mo ito anumang oras sa Settings.",
+    "workerTitle": "Naghahanap ako ng trabaho",
+    "workerBody": "Maghanap ng trabaho malapit sa iyo na swak sa iskedyul mo.",
+    "employerTitle": "May ipapagawa ako",
+    "employerBody": "Mag-post ng trabaho at humanap ng mapagkakatiwalaang manggagawa sa malapit.",
+    "guestNote": "Puwede kang tumingin-tingin muna. Hihingin lang namin ang numero mo kapag mag-a-apply ka, magpo-post, o magpapadala ng mensahe."
+  },
+  "tabs": {
+    "home": "Home",
+    "jobs": "Trabaho",
+    "chat": "Chat",
+    "profile": "Profile",
+    "posts": "Mga post ko"
+  },
+  "home": {
+    "greeting": "Magandang araw!",
+    "workerEmptyTitle": "Wala pang trabahong maipapakita",
+    "workerEmptyBody": "Lalabas dito ang mga trabaho malapit sa iyo.",
+    "employerEmptyTitle": "Wala ka pang naipo-post na trabaho",
+    "employerEmptyBody": "Lalabas dito ang trabahong ipo-post mo."
+  },
+  "states": {
+    "loading": "Naglo-load",
+    "errorTitle": "May nangyaring mali",
+    "errorBody": "Tingnan ang iyong koneksyon at subukan ulit.",
+    "comingSoonTitle": "Malapit na",
+    "comingSoonBody": "Ginagawa pa namin ang bahaging ito ng Kayod."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Wika",
+    "replayIntro": "Ulitin ang intro",
+    "role": "Ginagamit ko ang Kayod bilang",
+    "roleWorker": "Manggagawa",
+    "roleEmployer": "Employer",
+    "switchTo": "Lumipat bilang {{role}}"
+  },
+  "mascot": {
+    "placeholder": "Paparating pa ang mascot"
+  },
+  "a11y": {
+    "settings": "Settings",
+    "notifications": "Mga abiso"
+  }
+}
