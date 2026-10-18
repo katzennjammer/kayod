@@ -6,7 +6,9 @@ import { useTranslation } from 'react-i18next';
 import { AppText } from '@/components/AppText';
 import { Button } from '@/components/Button';
 import { LanguageOptions } from '@/components/LanguageOptions';
+import { Mascot } from '@/components/mascot/Mascot';
 import { Screen } from '@/components/Screen';
+import { Wordmark } from '@/components/Wordmark';
 import i18n, { isLanguage, deviceLanguage, type Language } from '@/i18n';
 import { usePrefs } from '@/lib/prefs';
 import { space } from '@/theme';
@@ -31,8 +33,17 @@ export default function LanguageScreen() {
 
   return (
     <Screen contentStyle={styles.content}>
+      <View style={styles.brand}>
+        <View style={styles.brandText}>
+          <Wordmark size={40} />
+          <AppText variant="bodyStrong" color="inkMuted">
+            {t('brand.tagline')}
+          </AppText>
+        </View>
+        <Mascot id="female_neutral_wave" crop="portrait" style={styles.mascot} />
+      </View>
       <View style={styles.header}>
-        <AppText variant="display" color="primary">
+        <AppText variant="headline" color="primary">
           {t('language.title')}
         </AppText>
         <AppText variant="bodyLarge" color="inkMuted">
@@ -47,7 +58,10 @@ export default function LanguageScreen() {
 }
 
 const styles = StyleSheet.create({
-  content: { paddingTop: space.xxxl },
+  content: { paddingTop: space.xl },
+  brand: { flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between' },
+  brandText: { gap: space.xs, paddingBottom: space.lg },
+  mascot: { width: 120, height: 140 },
   header: { gap: space.sm, marginBottom: space.lg },
   spacer: { flex: 1 },
 });

@@ -48,14 +48,29 @@
     "jobs": "Trabaho",
     "chat": "Chat",
     "profile": "Profile",
-    "posts": "Akong mga post"
+    "posts": "Mga post"
   },
   "home": {
-    "greeting": "Maayong adlaw!",
     "workerEmptyTitle": "Wala pay trabaho nga ikapakita",
     "workerEmptyBody": "Mogawas diri ang mga trabaho duol nimo.",
     "employerEmptyTitle": "Wala ka pay na-post nga trabaho",
-    "employerEmptyBody": "Mogawas diri ang trabaho nga imong i-post."
+    "employerEmptyBody": "Mogawas diri ang trabaho nga imong i-post.",
+    "greetingMorning": "Maayong buntag!",
+    "greetingAfternoon": "Maayong hapon!",
+    "greetingEvening": "Maayong gabii!",
+    "nearPlace": "Mga trabaho duol sa {{place}}",
+    "bannerNewJobs": "Naay bag-ong mga trabaho duol nimo karon. Ang pinakaduol {{km}} km ra.",
+    "employerBanner": "Pag-post og trabaho ug makita dayon kini sa mga mamumuo duol nimo.",
+    "dismiss": "Isira",
+    "categoriesTitle": "Unsang klase sa trabaho?",
+    "allCategories": "Tanan",
+    "urgentTitle": "Kinahanglan karong adlawa",
+    "urgentBody": "Bayad nga trabaho nga mosugod karon.",
+    "nearTitle": "Mga trabaho duol nimo",
+    "seeAll": "Tan-awa tanan",
+    "noJobsInCategory": "Wala pay trabaho niini nga kategorya duol nimo.",
+    "employerPostsTitle": "Imong mga gi-post nga trabaho",
+    "quickTitle": "Mga shortcut"
   },
   "states": {
     "loading": "Nag-load",
@@ -71,7 +86,9 @@
     "role": "Gigamit nako ang Kayod isip",
     "roleWorker": "Mamumuo",
     "roleEmployer": "Employer",
-    "switchTo": "Mobalhin isip {{role}}"
+    "switchTo": "Mobalhin isip {{role}}",
+    "sectionAccount": "Account",
+    "sectionHelp": "Tabang"
   },
   "mascot": {
     "placeholder": "Hapit na ang mascot"
@@ -79,5 +96,38 @@
   "a11y": {
     "settings": "Settings",
     "notifications": "Mga pahibalo"
+  },
+  "brand": {
+    "tagline": "Kayod para sa pamilya."
+  },
+  "quick": {
+    "findJobs": "Pangitag trabaho",
+    "applications": "Akong mga gi-applyan",
+    "schedule": "Akong iskedyul",
+    "messages": "Mga mensahe",
+    "report": "I-report ang problema",
+    "postJob": "Pag-post og trabaho",
+    "myPosts": "Akong mga post",
+    "applicants": "Mga aplikante",
+    "paymentRecord": "Rekord sa bayad"
+  },
+  "categories": {
+    "construction": "Konstruksyon",
+    "painting": "Pagpintal",
+    "driving": "Pagdrayb",
+    "laundry": "Paglaba",
+    "errands": "Pagpamalit",
+    "cleaning": "Paglimpyo"
+  },
+  "job": {
+    "perDay": "/adlaw",
+    "perJob": "/trabaho",
+    "perHour": "/oras",
+    "today": "Karon",
+    "tomorrow": "Ugma",
+    "km": "{{km}} km",
+    "verified": "Beripikado",
+    "ratingA11y": "{{rating}} sa 5 ang rating",
+    "startsAt": "Magsugod {{time}}"
   }
 }

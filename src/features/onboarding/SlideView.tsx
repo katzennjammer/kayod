@@ -87,7 +87,8 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     alignContent: 'center',
     justifyContent: 'center',
-    gap: space.md,
+    columnGap: space.xs,
+    rowGap: space.md,
   },
-  tile: { width: '30%', aspectRatio: 1 },
+  tile: { width: '31%', aspectRatio: 0.6 },
 });

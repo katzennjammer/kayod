@@ -22,3 +22,14 @@ Settings, Home, Chat, Profile, post, apply, employer, rating. Change any of
 them if the reviewer prefers a local word.
 
 The tagline "Kayod Para Sa Pamilya" is kept identical in all three languages.
+
+## Added with the home screen redesign
+
+| Key | Language | Draft | Concern |
+| --- | --- | --- | --- |
+| `home.quickTitle` | tl, ceb | Mga shortcut | Loan word on purpose; "Mabilisang gawain" is the formal option. |
+| `quick.applications` | tl, ceb | Mga in-applyan ko / Akong mga gi-applyan | Check the Taglish/Bislish verb forms read naturally. |
+| `home.urgentTitle` | ceb | Kinahanglan karong adlawa | Check tone for a section heading. |
+| `categories.errands` | tl, ceb | Pagpapabili / Pagpamalit | Same concern as slide 3. |
+| `job.perJob` | tl, ceb | /trabaho | Shown after a price, e.g. "₱800/trabaho". Maybe "/buo" or keep English "/job". |
+| `home.greeting*` | all | Good morning / Magandang umaga / Maayong buntag | Changes by time of day. |

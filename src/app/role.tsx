@@ -2,8 +2,10 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 
-import { ClipboardList, Search, type Icon as LucideIcon } from '@/components/icons';
+import { ArrowRight } from '@/components/icons';
 import { AppText } from '@/components/AppText';
+import { Mascot } from '@/components/mascot/Mascot';
+import type { MascotId } from '@/components/mascot/registry';
 import { Screen } from '@/components/Screen';
 import { usePrefs, type Role } from '@/lib/prefs';
 import { colors, radius, space } from '@/theme';
@@ -31,14 +33,14 @@ export default function RoleScreen() {
       </View>
 
       <RoleCard
-        icon={Search}
+        mascot="male_construction_hammer"
         title={t('role.workerTitle')}
         body={t('role.workerBody')}
         tint="tintOrange"
         onPress={() => choose('worker')}
       />
       <RoleCard
-        icon={ClipboardList}
+        mascot="female_neutral_phone"
         title={t('role.employerTitle')}
         body={t('role.employerBody')}
         tint="tintBlue"
@@ -53,14 +55,14 @@ export default function RoleScreen() {
 }
 
 type CardProps = {
-  icon: LucideIcon;
+  mascot: MascotId;
   title: string;
   body: string;
   tint: 'tintOrange' | 'tintBlue';
   onPress: () => void;
 };
 
-function RoleCard({ icon: Icon, title, body, tint, onPress }: CardProps) {
+function RoleCard({ mascot, title, body, tint, onPress }: CardProps) {
   return (
     <Pressable
       onPress={onPress}
@@ -68,12 +70,13 @@ function RoleCard({ icon: Icon, title, body, tint, onPress }: CardProps) {
       accessibilityLabel={`${title}. ${body}`}
       style={({ pressed }) => [styles.card, { backgroundColor: colors[tint] }, pressed && styles.pressed]}
     >
-      <View style={styles.iconWrap}>
-        <Icon color={colors.primary} size={32} strokeWidth={2.5} />
-      </View>
+      <Mascot id={mascot} crop="portrait" style={styles.avatar} />
       <View style={styles.cardText}>
         <AppText variant="title">{title}</AppText>
         <AppText color="inkMuted">{body}</AppText>
+      </View>
+      <View style={styles.go}>
+        <ArrowRight color={colors.white} size={22} strokeWidth={2.75} />
       </View>
     </Pressable>
   );
@@ -84,18 +87,19 @@ const styles = StyleSheet.create({
   header: { gap: space.sm, marginBottom: space.md },
   card: {
     borderRadius: radius.lg,
-    padding: space.xl,
+    padding: space.lg,
     flexDirection: 'row',
     alignItems: 'center',
-    gap: space.lg,
+    gap: space.md,
     minHeight: 120,
   },
   pressed: { opacity: 0.85 },
-  iconWrap: {
-    width: 60,
-    height: 60,
-    borderRadius: radius.pill,
-    backgroundColor: colors.white,
+  avatar: { width: 84, height: 84, borderRadius: 42, backgroundColor: colors.white },
+  go: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: colors.primary,
     alignItems: 'center',
     justifyContent: 'center',
   },

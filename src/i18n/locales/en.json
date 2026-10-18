@@ -51,11 +51,26 @@
     "posts": "My posts"
   },
   "home": {
-    "greeting": "Good day!",
     "workerEmptyTitle": "No jobs to show yet",
     "workerEmptyBody": "Jobs near you will show up here.",
     "employerEmptyTitle": "No job posts yet",
-    "employerEmptyBody": "When you post a job, it will show up here."
+    "employerEmptyBody": "When you post a job, it will show up here.",
+    "greetingMorning": "Good morning!",
+    "greetingAfternoon": "Good afternoon!",
+    "greetingEvening": "Good evening!",
+    "nearPlace": "Jobs near {{place}}",
+    "bannerNewJobs": "New jobs near you today. The closest is {{km}} km away.",
+    "employerBanner": "Post a job and workers nearby will see it right away.",
+    "dismiss": "Dismiss",
+    "categoriesTitle": "What kind of work?",
+    "allCategories": "All",
+    "urgentTitle": "Need someone today",
+    "urgentBody": "Paid work that starts today.",
+    "nearTitle": "Jobs near you",
+    "seeAll": "See all",
+    "noJobsInCategory": "No jobs in this category nearby right now.",
+    "employerPostsTitle": "Your job posts",
+    "quickTitle": "Quick actions"
   },
   "states": {
     "loading": "Loading",
@@ -71,7 +86,9 @@
     "role": "I'm using Kayod as",
     "roleWorker": "Worker",
     "roleEmployer": "Employer",
-    "switchTo": "Switch to {{role}}"
+    "switchTo": "Switch to {{role}}",
+    "sectionAccount": "Account",
+    "sectionHelp": "Help"
   },
   "mascot": {
     "placeholder": "Mascot art coming soon"
@@ -79,5 +96,38 @@
   "a11y": {
     "settings": "Settings",
     "notifications": "Notifications"
+  },
+  "brand": {
+    "tagline": "Kayod para sa pamilya."
+  },
+  "quick": {
+    "findJobs": "Find jobs",
+    "applications": "My applications",
+    "schedule": "My schedule",
+    "messages": "Messages",
+    "report": "Report a problem",
+    "postJob": "Post a job",
+    "myPosts": "My posts",
+    "applicants": "Applicants",
+    "paymentRecord": "Payment record"
+  },
+  "categories": {
+    "construction": "Construction",
+    "painting": "Painting",
+    "driving": "Driving",
+    "laundry": "Laundry",
+    "errands": "Errands",
+    "cleaning": "Cleaning"
+  },
+  "job": {
+    "perDay": "/day",
+    "perJob": "/job",
+    "perHour": "/hr",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "km": "{{km}} km",
+    "verified": "Verified",
+    "ratingA11y": "Rated {{rating}} out of 5",
+    "startsAt": "Starts {{time}}"
   }
 }

@@ -6,14 +6,15 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
-import {
-  useFonts,
-  Nunito_400Regular,
-  Nunito_600SemiBold,
-  Nunito_700Bold,
-  Nunito_800ExtraBold,
-  Nunito_900Black,
-} from '@expo-google-fonts/nunito';
+import { useFonts } from 'expo-font';
+// One import per weight: the packages' main entry would bundle every weight
+// and italic (22 font files, several MB) instead of the 6 the app uses.
+import { Nunito_400Regular } from '@expo-google-fonts/nunito/400Regular';
+import { Nunito_600SemiBold } from '@expo-google-fonts/nunito/600SemiBold';
+import { Nunito_700Bold } from '@expo-google-fonts/nunito/700Bold';
+import { Nunito_800ExtraBold } from '@expo-google-fonts/nunito/800ExtraBold';
+import { Baloo2_700Bold } from '@expo-google-fonts/baloo-2/700Bold';
+import { Baloo2_800ExtraBold } from '@expo-google-fonts/baloo-2/800ExtraBold';
 
 import { PrefsProvider, usePrefs } from '@/lib/prefs';
 import { colors, fonts } from '@/theme';
@@ -30,7 +31,8 @@ export default function RootLayout() {
     Nunito_600SemiBold,
     Nunito_700Bold,
     Nunito_800ExtraBold,
-    Nunito_900Black,
+    Baloo2_700Bold,
+    Baloo2_800ExtraBold,
   });
 
   return (
@@ -59,7 +61,7 @@ function AppStack({ fontsReady }: { fontsReady: boolean }) {
       screenOptions={{
         headerShown: false,
         contentStyle: { backgroundColor: colors.background },
-        headerTitleStyle: { fontFamily: fonts.bold, fontSize: 20, color: colors.ink },
+        headerTitleStyle: { fontFamily: fonts.displayBold, fontSize: 22, color: colors.ink },
         headerTintColor: colors.primary,
         headerShadowVisible: false,
         headerStyle: { backgroundColor: colors.background },

@@ -48,14 +48,29 @@
     "jobs": "Trabaho",
     "chat": "Chat",
     "profile": "Profile",
-    "posts": "Mga post ko"
+    "posts": "Mga post"
   },
   "home": {
-    "greeting": "Magandang araw!",
     "workerEmptyTitle": "Wala pang trabahong maipapakita",
     "workerEmptyBody": "Lalabas dito ang mga trabaho malapit sa iyo.",
     "employerEmptyTitle": "Wala ka pang naipo-post na trabaho",
-    "employerEmptyBody": "Lalabas dito ang trabahong ipo-post mo."
+    "employerEmptyBody": "Lalabas dito ang trabahong ipo-post mo.",
+    "greetingMorning": "Magandang umaga!",
+    "greetingAfternoon": "Magandang hapon!",
+    "greetingEvening": "Magandang gabi!",
+    "nearPlace": "Mga trabaho malapit sa {{place}}",
+    "bannerNewJobs": "May mga bagong trabaho malapit sa iyo ngayon. Ang pinakamalapit ay {{km}} km lang.",
+    "employerBanner": "Mag-post ng trabaho at makikita agad ito ng mga manggagawa sa malapit.",
+    "dismiss": "Isara",
+    "categoriesTitle": "Anong klaseng trabaho?",
+    "allCategories": "Lahat",
+    "urgentTitle": "Kailangan ngayong araw",
+    "urgentBody": "Bayad na trabahong magsisimula ngayon.",
+    "nearTitle": "Mga trabaho malapit sa iyo",
+    "seeAll": "Tingnan lahat",
+    "noJobsInCategory": "Wala pang trabaho sa kategoryang ito malapit sa iyo.",
+    "employerPostsTitle": "Mga trabahong ipinost mo",
+    "quickTitle": "Mga shortcut"
   },
   "states": {
     "loading": "Naglo-load",
@@ -71,7 +86,9 @@
     "role": "Ginagamit ko ang Kayod bilang",
     "roleWorker": "Manggagawa",
     "roleEmployer": "Employer",
-    "switchTo": "Lumipat bilang {{role}}"
+    "switchTo": "Lumipat bilang {{role}}",
+    "sectionAccount": "Account",
+    "sectionHelp": "Tulong"
   },
   "mascot": {
     "placeholder": "Paparating pa ang mascot"
@@ -79,5 +96,38 @@
   "a11y": {
     "settings": "Settings",
     "notifications": "Mga abiso"
+  },
+  "brand": {
+    "tagline": "Kayod para sa pamilya."
+  },
+  "quick": {
+    "findJobs": "Maghanap ng trabaho",
+    "applications": "Mga in-applyan ko",
+    "schedule": "Iskedyul ko",
+    "messages": "Mga mensahe",
+    "report": "Mag-report ng problema",
+    "postJob": "Mag-post ng trabaho",
+    "myPosts": "Mga post ko",
+    "applicants": "Mga aplikante",
+    "paymentRecord": "Rekord ng bayad"
+  },
+  "categories": {
+    "construction": "Konstruksyon",
+    "painting": "Pagpipinta",
+    "driving": "Pagmamaneho",
+    "laundry": "Paglalaba",
+    "errands": "Pagpapabili",
+    "cleaning": "Paglilinis"
+  },
+  "job": {
+    "perDay": "/araw",
+    "perJob": "/trabaho",
+    "perHour": "/oras",
+    "today": "Ngayon",
+    "tomorrow": "Bukas",
+    "km": "{{km}} km",
+    "verified": "Beripikado",
+    "ratingA11y": "{{rating}} sa 5 ang rating",
+    "startsAt": "Magsisimula {{time}}"
   }
 }

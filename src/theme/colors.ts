@@ -12,8 +12,11 @@
 export const colors = {
   primary: '#1B4F8A',
   primaryPressed: '#153E6C',
+  primaryContainer: '#D6E4F5', // Material-style 'container': the tab pill, selected chips
+  onPrimaryMuted: '#C8D8EC', // secondary text on the blue header
   accent: '#F47B20',
   accentPressed: '#D9691A',
+  accentInk: '#9A3412', // burnt orange that IS readable as text (6.3 on tintOrange)
   white: '#FFFFFF',
 
   ink: '#1E2430',

@@ -48,9 +48,10 @@ export const SLIDES: readonly Slide[] = [
     key: 'slide4',
     background: 'tintCoral',
     shape: 'shapeCoral',
-    // Two separate images facing each other. If the final art is one image of
-    // both characters shaking hands, switch this to { kind: 'single' }.
-    art: { kind: 'pair', ids: ['female_neutral_handshake', 'male_construction_handshake'] },
+    // Both handshake renders reach toward the viewer's left, so the male goes
+    // on the left and the female reaches toward him. A single render of the
+    // two shaking hands would read better; switch to { kind: 'single' } then.
+    art: { kind: 'pair', ids: ['male_construction_handshake', 'female_neutral_handshake'] },
   },
   {
     key: 'slide5',
