@@ -1,45 +1,45 @@
 import type { ImageSourcePropType } from 'react-native';
 
 // Every mascot image the app knows about, named after its file in
-// assets/mascots/ (pattern: <character>_<outfit>_<pose>).
+// assets/mascots/ (pattern: <character>_<outfit>_<pose>). The files are made
+// from the source art in design/mascot-source/ by scripts/process-mascots.py,
+// which removes the background and writes 1x/2x/3x versions; the bundler
+// picks the right size for each phone.
 //
-// No mascot files exist yet, so every entry is `null` and <Mascot> draws a
-// labelled placeholder. When a file arrives, drop it in assets/mascots/ and
-// replace `null` with a require(), for example:
-//
-//   female_neutral_phone: require('../../../assets/mascots/female_neutral_phone.png'),
-//
-// The require() must be written out in full like that: the bundler only
-// packages images it can see in the code, so the path cannot be built from
-// a variable.
+// An entry set to `null` has no art yet, and <Mascot> draws a labelled
+// placeholder. The require() calls must be written out in full: the bundler
+// only packages images it can see in the code.
 export const MASCOTS = {
-  // Female, neutral "Kayod helper" outfit (the set generated so far)
-  female_neutral_wave: null,
-  female_neutral_thumbsup: null,
-  female_neutral_phone: null,
-  female_neutral_celebrate: null,
-  female_neutral_thinking: null,
-  female_neutral_shrug: null,
-  female_neutral_handshake: null,
+  // Female, neutral "Kayod helper" outfit
+  female_neutral_wave: require('../../../assets/mascots/female_neutral_wave.webp'),
+  female_neutral_thumbsup: require('../../../assets/mascots/female_neutral_thumbsup.webp'),
+  female_neutral_phone: require('../../../assets/mascots/female_neutral_phone.webp'),
+  female_neutral_celebrate: require('../../../assets/mascots/female_neutral_celebrate.webp'),
+  female_neutral_thinking: require('../../../assets/mascots/female_neutral_thinking.webp'),
+  female_neutral_shrug: require('../../../assets/mascots/female_neutral_shrug.webp'),
+  female_neutral_handshake: require('../../../assets/mascots/female_neutral_handshake.webp'),
 
-  // Male, construction outfit (the set generated so far)
-  male_construction_wave: null,
-  male_construction_thumbsup: null,
-  male_construction_phone: null,
-  male_construction_celebrate: null,
-  male_construction_thinking: null,
-  male_construction_shrug: null,
-  male_construction_handshake: null,
-  male_construction_hammer: null,
+  // Male, construction outfit
+  male_construction_thumbsup: require('../../../assets/mascots/male_construction_thumbsup.webp'),
+  male_construction_phone: require('../../../assets/mascots/male_construction_phone.webp'),
+  male_construction_celebrate: require('../../../assets/mascots/male_construction_celebrate.webp'),
+  male_construction_thinking: require('../../../assets/mascots/male_construction_thinking.webp'),
+  male_construction_shrug: require('../../../assets/mascots/male_construction_shrug.webp'),
+  male_construction_handshake: require('../../../assets/mascots/male_construction_handshake.webp'),
+  male_construction_hammer: require('../../../assets/mascots/male_construction_hammer.webp'),
+  male_construction_wave: null, // not generated yet
 
-  // One job-prop pose per category, for chips, cards and slide 3. Which
-  // character wears which outfit is a placeholder choice; jobs are not tied
-  // to gender, so swap these freely once the art exists.
-  female_painting_roller: null,
-  male_driving_keys: null,
-  female_laundry_basket: null,
-  male_errands_bag: null,
-  female_cleaning_broom: null,
+  // Job outfits, both characters. Jobs are not tied to gender.
+  female_errands_bag: require('../../../assets/mascots/female_errands_bag.webp'),
+  female_painting_roller: require('../../../assets/mascots/female_painting_roller.webp'),
+  female_driving_keys: require('../../../assets/mascots/female_driving_keys.webp'),
+  female_cleaning_broom: require('../../../assets/mascots/female_cleaning_broom.webp'),
+  female_laundry_basket: require('../../../assets/mascots/female_laundry_basket.webp'),
+  male_errands_bag: require('../../../assets/mascots/male_errands_bag.webp'),
+  male_painting_roller: require('../../../assets/mascots/male_painting_roller.webp'),
+  male_driving_keys: require('../../../assets/mascots/male_driving_keys.webp'),
+  male_cleaning_broom: require('../../../assets/mascots/male_cleaning_broom.webp'),
+  male_laundry_basket: require('../../../assets/mascots/male_laundry_basket.webp'),
 } satisfies Record<string, ImageSourcePropType | null>;
 
 export type MascotId = keyof typeof MASCOTS;
